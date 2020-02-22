@@ -11,11 +11,6 @@ spring:
     port: 5672
     username: guest
     password: guest
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
 #通过配置实现ribbon的配置
 PRODUCT: #通过配置来实现对ribbon，对产品的服务负载均衡
   ribbon:
